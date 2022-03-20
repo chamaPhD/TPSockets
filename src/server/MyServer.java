@@ -26,7 +26,8 @@ public class MyServer {
 		int rep = nb*2;
 		System.out.println(" J'envoi le réponse : " + rep +"....");
 		os.write(rep);
-		
+		System.out.println(" Fin de connexion !! ");
+
 		s.close();
 		
 		
