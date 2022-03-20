@@ -32,6 +32,8 @@ public class MyClient {
 		System.out.println("J'attend la réponse du serveur !");
 		int rep = is.read();
 		System.out.println("Réponse du serveur est : " + rep);
+		System.out.println("Test Branch : " + rep);
+
 		
 		
 		
